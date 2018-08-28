@@ -12,7 +12,38 @@
 		9452DFB021002C5500915931 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9452DFAE21002C5500915931 /* Main.storyboard */; };
 		9452DFB221002C5700915931 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9452DFB121002C5700915931 /* Assets.xcassets */; };
 		9452DFB521002C5700915931 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9452DFB321002C5700915931 /* LaunchScreen.storyboard */; };
+		9452DFBE21002CD900915931 /* BooksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9452DFBD21002CD900915931 /* BooksViewModel.swift */; };
+		9452DFC021002D0800915931 /* BooksManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9452DFBF21002D0800915931 /* BooksManager.swift */; };
+		9452DFC52100307500915931 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9452DFC42100307500915931 /* Constants.swift */; };
+		94CE84332112AC9100A69BDC /* ReactiveMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94CE842F2112AC9100A69BDC /* ReactiveMapKit.framework */; };
+		94CE84342112AC9100A69BDC /* ReactiveMapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 94CE842F2112AC9100A69BDC /* ReactiveMapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		94CE84352112AC9100A69BDC /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94CE84302112AC9100A69BDC /* ReactiveCocoa.framework */; };
+		94CE84362112AC9100A69BDC /* ReactiveCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 94CE84302112AC9100A69BDC /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		94CE84372112AC9100A69BDC /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94CE84312112AC9100A69BDC /* Result.framework */; };
+		94CE84382112AC9100A69BDC /* Result.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 94CE84312112AC9100A69BDC /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		94CE84392112AC9100A69BDC /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94CE84322112AC9100A69BDC /* ReactiveSwift.framework */; };
+		94CE843A2112AC9100A69BDC /* ReactiveSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 94CE84322112AC9100A69BDC /* ReactiveSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		94E3758C210031E100233703 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9452DFC121002E5600915931 /* Alamofire.framework */; };
+		94E3758D210031E100233703 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9452DFC121002E5600915931 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		94E3758E210031E100233703 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				94E3758D210031E100233703 /* Alamofire.framework in Embed Frameworks */,
+				94CE84362112AC9100A69BDC /* ReactiveCocoa.framework in Embed Frameworks */,
+				94CE843A2112AC9100A69BDC /* ReactiveSwift.framework in Embed Frameworks */,
+				94CE84342112AC9100A69BDC /* ReactiveMapKit.framework in Embed Frameworks */,
+				94CE84382112AC9100A69BDC /* Result.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		9452DFA721002C5500915931 /* BookSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +53,14 @@
 		9452DFB121002C5700915931 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9452DFB421002C5700915931 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9452DFB621002C5700915931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9452DFBD21002CD900915931 /* BooksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewModel.swift; sourceTree = "<group>"; };
+		9452DFBF21002D0800915931 /* BooksManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksManager.swift; sourceTree = "<group>"; };
+		9452DFC121002E5600915931 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = BookSearch/Frameworks/Alamofire.framework; sourceTree = SOURCE_ROOT; };
+		9452DFC42100307500915931 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		94CE842F2112AC9100A69BDC /* ReactiveMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ReactiveMapKit.framework; sourceTree = "<group>"; };
+		94CE84302112AC9100A69BDC /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ReactiveCocoa.framework; sourceTree = "<group>"; };
+		94CE84312112AC9100A69BDC /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Result.framework; sourceTree = "<group>"; };
+		94CE84322112AC9100A69BDC /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ReactiveSwift.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +68,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94E3758C210031E100233703 /* Alamofire.framework in Frameworks */,
+				94CE84352112AC9100A69BDC /* ReactiveCocoa.framework in Frameworks */,
+				94CE84392112AC9100A69BDC /* ReactiveSwift.framework in Frameworks */,
+				94CE84332112AC9100A69BDC /* ReactiveMapKit.framework in Frameworks */,
+				94CE84372112AC9100A69BDC /* Result.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,8 +104,24 @@
 				9452DFB121002C5700915931 /* Assets.xcassets */,
 				9452DFB321002C5700915931 /* LaunchScreen.storyboard */,
 				9452DFB621002C5700915931 /* Info.plist */,
+				9452DFBD21002CD900915931 /* BooksViewModel.swift */,
+				9452DFBF21002D0800915931 /* BooksManager.swift */,
+				9452DFC321002E5900915931 /* Frameworks */,
+				9452DFC42100307500915931 /* Constants.swift */,
 			);
 			path = BookSearch;
+			sourceTree = "<group>";
+		};
+		9452DFC321002E5900915931 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94CE84302112AC9100A69BDC /* ReactiveCocoa.framework */,
+				94CE842F2112AC9100A69BDC /* ReactiveMapKit.framework */,
+				94CE84322112AC9100A69BDC /* ReactiveSwift.framework */,
+				94CE84312112AC9100A69BDC /* Result.framework */,
+				9452DFC121002E5600915931 /* Alamofire.framework */,
+			);
+			path = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +134,7 @@
 				9452DFA321002C5500915931 /* Sources */,
 				9452DFA421002C5500915931 /* Frameworks */,
 				9452DFA521002C5500915931 /* Resources */,
+				94E3758E210031E100233703 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,7 +196,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9452DFC52100307500915931 /* Constants.swift in Sources */,
 				9452DFAD21002C5500915931 /* ViewController.swift in Sources */,
+				9452DFBE21002CD900915931 /* BooksViewModel.swift in Sources */,
+				9452DFC021002D0800915931 /* BooksManager.swift in Sources */,
 				9452DFAB21002C5500915931 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +345,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X3M3P7J4X7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/BookSearch/Frameworks",
+				);
 				INFOPLIST_FILE = BookSearch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,6 +368,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X3M3P7J4X7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/BookSearch/Frameworks",
+				);
 				INFOPLIST_FILE = BookSearch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

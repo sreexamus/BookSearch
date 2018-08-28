@@ -1,0 +1,39 @@
+{
+  "Mac" : [
+    {
+      "name" : "ReactiveMapKit",
+      "hash" : "bc5f0848097339dbe1b9be960befa52494c88cb44bc711685931865b87353632"
+    },
+    {
+      "name" : "ReactiveCocoa",
+      "hash" : "94d95ed08f0681b98bba07997d992cf2751c6304be24ac682dadb0d37b903863"
+    }
+  ],
+  "watchOS" : [
+    {
+      "name" : "ReactiveCocoa",
+      "hash" : "19cdbab0ccad0b0a154c819f49d6e14eadb1d7406553d8f6c5a1876fee220e2a"
+    }
+  ],
+  "tvOS" : [
+    {
+      "name" : "ReactiveMapKit",
+      "hash" : "49170bc8c29ecf0d2005fa677afbf55aea91d08faf5647d5be79b65138cdb138"
+    },
+    {
+      "name" : "ReactiveCocoa",
+      "hash" : "97bd659eea0560fdeaf4a81eb3f13ef040c42c2ee44386d4e42efcaf4e3e6c3d"
+    }
+  ],
+  "commitish" : "8.0.0",
+  "iOS" : [
+    {
+      "name" : "ReactiveMapKit",
+      "hash" : "1c3d8e315d3c0a2366724629a54025cda4b716231eadca7833e81799e7517b72"
+    },
+    {
+      "name" : "ReactiveCocoa",
+      "hash" : "c972e6b149cf7d951485fab80656a9199c193fdba7453fe35297fdf4f2b91f33"
+    }
+  ]
+}
